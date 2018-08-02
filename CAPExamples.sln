@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{2C6E775E-BD00-4362-A5E8-AAC806CCEABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAPExamples.EntityFramework.Publisher.Host", "src\entityframework\CAPExamples.EntityFramework.Publisher.Host\CAPExamples.EntityFramework.Publisher.Host.csproj", "{8C5D89F5-A013-429C-8E22-A9800D11ED06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C358670A-791B-41D8-A465-2CFB18805D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAPExamples.EntityFramework.Subcribe.Host", "src\entityframework\CAPExamples.EntityFramework.Subcribe.Host\CAPExamples.EntityFramework.Subcribe.Host.csproj", "{A9B0077D-CA81-4B82-8F9F-4BE4CB0432C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAPExamples.EntityFramework.Abstractions", "src\entityframework\CAPExamples.EntityFramework.Abstractions\CAPExamples.EntityFramework.Abstractions.csproj", "{5E8470B0-316C-495C-89BC-61F7F5B8DCB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAPExamples.EntityFramewok.Dashboard.Host", "src\entityframework\CAPExamples.EntityFramewok.Dashboard.Host\CAPExamples.EntityFramewok.Dashboard.Host.csproj", "{0282B4BC-3842-4D55-AC93-DF4DC6AC7795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C5D89F5-A013-429C-8E22-A9800D11ED06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5D89F5-A013-429C-8E22-A9800D11ED06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5D89F5-A013-429C-8E22-A9800D11ED06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5D89F5-A013-429C-8E22-A9800D11ED06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B0077D-CA81-4B82-8F9F-4BE4CB0432C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B0077D-CA81-4B82-8F9F-4BE4CB0432C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B0077D-CA81-4B82-8F9F-4BE4CB0432C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B0077D-CA81-4B82-8F9F-4BE4CB0432C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8470B0-316C-495C-89BC-61F7F5B8DCB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8470B0-316C-495C-89BC-61F7F5B8DCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8470B0-316C-495C-89BC-61F7F5B8DCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8470B0-316C-495C-89BC-61F7F5B8DCB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0282B4BC-3842-4D55-AC93-DF4DC6AC7795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0282B4BC-3842-4D55-AC93-DF4DC6AC7795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0282B4BC-3842-4D55-AC93-DF4DC6AC7795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0282B4BC-3842-4D55-AC93-DF4DC6AC7795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C6E775E-BD00-4362-A5E8-AAC806CCEABF} = {C358670A-791B-41D8-A465-2CFB18805D88}
+		{8C5D89F5-A013-429C-8E22-A9800D11ED06} = {2C6E775E-BD00-4362-A5E8-AAC806CCEABF}
+		{A9B0077D-CA81-4B82-8F9F-4BE4CB0432C9} = {2C6E775E-BD00-4362-A5E8-AAC806CCEABF}
+		{5E8470B0-316C-495C-89BC-61F7F5B8DCB4} = {2C6E775E-BD00-4362-A5E8-AAC806CCEABF}
+		{0282B4BC-3842-4D55-AC93-DF4DC6AC7795} = {2C6E775E-BD00-4362-A5E8-AAC806CCEABF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AABF2A2A-B3A7-40B5-911B-15C4F7593443}
+	EndGlobalSection
+EndGlobal
